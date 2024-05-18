@@ -5,12 +5,23 @@ Repositório para aprendizado de bibliotecas em Python para Ciência de Dados.
 Comecei o desenvolvimento utilizando a biblioteca Pandas para aprendizado.
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Pandas_logo.svg/1920px-Pandas_logo.svg.png" width="50%" height="25%">
 
+# Base dos Dados
+<img src="https://github.com/theusouza0/PythonDados/assets/75237625/19b656da-b99a-4842-8c56-c71f6a9b653f" width="30%" height="20%">
+
+É uma página que disponibiliza dados de forma pública. Há diversas bases, tanto de orgãos públicos, quanto privados. 
+
+Desta vez utilizei uma base de dados do Ministério de Minas e Energia (MME). Segue o link abaixo:
+https://basedosdados.org/dataset/3e31e540-81ba-4665-9e72-3f81c176adad?table=b955feef-1649-428b-ba46-bc891d2facc2
+
+Dados mensais do consumo de energia elétrica na rede (MWh) em nível nacional e separado por classes.
+
 ## Pandas
 Pandas é uma biblioteca de código aberto para a linguagem de programação Python, amplamente utilizada em ciência e análise de dados. A principal função do Pandas é facilitar a manipulação e análise de grandes conjuntos de dados de forma eficiente e intuitiva. Pandas fornece duas estruturas de dados principais: Series e DataFrame.
 
 - ***Series*** é uma estrutura de dados unidimensional que pode armazenar dados de qualquer tipo (inteiros, floats, strings, etc.).
 - ***DataFrame*** é uma estrutura de dados bidimensional, semelhante a uma planilha do Excel ou uma tabela em um banco de dados.
 
+## Utilização do Pandas
 Segue um exemplo de código que fiz utilizando a biblioteca Pandas:
 ```py
 #Importação da biblioteca de definição do apelido
@@ -26,7 +37,7 @@ concatColunas = display(df.loc[df['sigla_uf'] == 'SP'][df['ano'] == 2015]),
 ```
 <img src="https://github.com/theusouza0/PythonDados/assets/75237625/acf20783-0c5d-4ff4-a3d4-cc5279ceacb5" width="40%" height="25%">
 
-# Matplotlib e Pyplot
+## Matplotlib e Pyplot
 
 *Matplotlib* é uma biblioteca de visualização de dados para a linguagem de programação Python. É amplamente utilizado para criar gráficos estáticos, animados e interativos. A biblioteca é extremamente versátil e pode ser usada para gerar uma ampla variedade de gráficos, desde gráficos de linha simples até gráficos de superfície 3D complexos.
 *Pyplot* é um módulo do Matplotlib que fornece uma interface de estilo MATLAB para criar figuras e gráficos. 
