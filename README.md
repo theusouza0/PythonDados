@@ -66,3 +66,8 @@ plt.xticks(dfTeste['ano']) #Valores para cada barra no eixo X
 plt.show()
 ```
 <img src="https://github.com/theusouza0/PythonDados/assets/75237625/8c70b5ae-8fca-4d75-b075-6431191dce76" width="80%" height="50%">
+
+No final do código, converti a minha análise para uma planilha em Excel.
+```py
+dfTeste.to_excel('consumoEnergiaFinal.xlsx')
+```
